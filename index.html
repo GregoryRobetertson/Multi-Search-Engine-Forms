@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding and viewport for responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title and linking external stylesheet -->
+    <title>Creating Custom Search Forms for Multiple Search Engines</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main heading -->
+    <h1>Multi-Search-Engine-Forms</h1>
+
+    <!-- Google Search Form Section -->
+    <section class="google-form">
+      <!-- Sub-heading for Google -->
+      <h2>Google</h2>
+
+      <!-- Google Search Form -->
+      <form action="https://www.google.com/search" method="get" target="_blank">
+        <!-- Label for the search input -->
+        <label for="q">
+          <!-- Input field for search query -->
+          <input type="text" id="q" name="q" />
+        </label>
+
+        <!-- Search button for Google -->
+        <button>Search</button>
+      </form>
+      <!-- End of Google Search Form -->
+    </section>
+    <!-- End of Google Search Form Section -->
+
+    <!-- Bing Search Form Section -->
+    <section class="bing">
+      <!-- Sub-heading for Bing -->
+      <h3>Bing</h3>
+
+      <!-- Bing Search Form -->
+      <form action="https://www.bing.com/search" method="get" target="_blank">
+        <!-- Label for the search input -->
+        <label for="q">
+          <!-- Input field for search query -->
+          <input type="text" id="q" name="q" />
+        </label>
+
+        <!-- Search button for Bing -->
+        <button>Search</button>
+      </form>
+      <!-- End of Bing Search Form -->
+    </section>
+    <!-- End of Bing Search Form Section -->
+
+    <!-- Yahoo Search Form Section -->
+    <section class="yahoo">
+      <!-- Sub-heading for Yahoo -->
+      <h4>Yahoo</h4>
+
+      <!-- Yahoo Search Form -->
+      <form action="https://www.bing.com/search">
+        <!-- Label for the search input -->
+        <label for="q">
+          <!-- Input field for search query -->
+          <input type="text" id="q" name="q" />
+        </label>
+
+        <!-- Search button for Yahoo -->
+        <button>Search</button>
+      </form>
+      <!-- End of Yahoo Search Form -->
+    </section>
+    <!-- End of Yahoo Search Form Section -->
+  </body>
+</html>

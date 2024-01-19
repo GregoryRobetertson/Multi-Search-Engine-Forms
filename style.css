@@ -1,0 +1,29 @@
+.google-form {
+  align-items: center;
+}
+
+.google-form label {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.google-form input {
+  padding: 8px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+}
+
+.google-form button {
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.google-form button:hover {
+  background-color: #357ae8;
+}
